@@ -1,9 +1,8 @@
 # DSA_Project
 Data Structure and Algorithm Project, 4th Semester
 
-## Visualization of Quicksort Algorithm & Huffman Tree
+## Visualization of Dijkstra's Algorithm & Huffman Tree
 
-![screenshot.gif](https://raw.githubusercontent.com/Sandace11/DSA_Project/main/screenshots/output.gif)
 
 ### Requirements
 - SDL2
