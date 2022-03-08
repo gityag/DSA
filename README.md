@@ -3,6 +3,7 @@
 Data Structure and Algorithm Project, 4th Semester
 
 ## Visualization of Huffman Tree & Dijkstra's Algorithm
+/home/prayag/projects/dsaproject/DSA_Project/ezgif-5-42a3452ea7.gif
 
 ### Requirements
 
@@ -68,7 +69,15 @@ binary_dir=bin
 
 ### Primary Contributors:
 
-PRABIGYA PATHAK 076BEI022
+-PRABIGYA PATHAK 076BEI022
+
 PRAYAG MAN MANE 076BEI027
+
 RAHUL SHRESTHA 076BEI028
+
 TRIBHUWAN BHATTA 076BEI046
+
+###Sample Inputs
+
+aaaaaaabbbbbbbbbbbcccccccccddddeefgggggggggggggg
+

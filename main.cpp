@@ -8,7 +8,7 @@ int main()
 {
   char ch = '1';
   cout << "Enter a number: " << endl;
-  cout << "\t1) Visualize Huffman Tree\n\
+  cout << "    1) Visualize Huffman Tree\n\
     2) Visualize Dijkstra's Algorithm\n\
     4) Quit\n";
   while (ch)
