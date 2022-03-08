@@ -10,7 +10,7 @@ int main()
   cout << "Enter a number: " << endl;
   cout << "    1) Visualize Huffman Tree\n\
     2) Visualize Dijkstra's Algorithm\n\
-    4) Quit\n";
+    3) Quit\n";
   while (ch)
   {
     std::cin >> ch;

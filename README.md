@@ -69,7 +69,7 @@ binary_dir=bin
 
 ### Primary Contributors:
 
--PRABIGYA PATHAK 076BEI022
+PRABIGYA PATHAK 076BEI022
 
 PRAYAG MAN MANE 076BEI027
 
@@ -77,7 +77,7 @@ RAHUL SHRESTHA 076BEI028
 
 TRIBHUWAN BHATTA 076BEI046
 
-###Sample Inputs
+### Sample Inputs
 
 aaaaaaabbbbbbbbbbbcccccccccddddeefgggggggggggggg
 

@@ -19,20 +19,54 @@ int getMin(int dist[], bool visited[])
 	return key;
 }
 
-void display(int dist[], int par[])
+void display(int dist[], int par[], int src)
 {
+	int dest, temp;
+	cout << endl
+		 << "***************************************************************************" << endl
+		 << endl;
+	cout << endl
+		 << left << setw(15) << "Node:"
+		 << left << setw(15) << "Cost: "
+		 << "Path:" << endl
+		 << endl;
 	for (int i = 0; i < n; i++)
 	{
-		int temp = par[i];
-		cout << i << " <- ";
+		if (i != src)
+		{
+			cout << left << setw(15) << i;
+			cout << left << setw(15) << dist[i];
+			cout << i << " <- ";
+		}
+		temp = par[i];
+
 		while (temp != -1)
 		{
 			cout << temp << " <- ";
 			temp = par[temp];
-		}
-		cout << endl;
-		cout << "::::Distance = " << dist[i];
-		cout << endl;
+		};
+		if (i != src)
+			cout << endl;
+	}
+	cout << endl
+		 << "***************************************************************************" << endl;
+	cout << endl
+		 << "Enter destination node: ";
+	cin >> dest;
+	cout << "--------------------------------------------------------------------------------------" << endl;
+	cout << "The shortest distance to " << dest << "th node is: " << endl
+		 << endl
+		 << "------   " << dist[dest] << "   ------" << endl
+		 << endl
+		 << "attainable through the path " << endl
+		 << endl;
+
+	temp = par[dest];
+	cout << dest << " <- ";
+	while (temp != -1)
+	{
+		cout << temp << " <- ";
+		temp = par[temp];
 	}
 }
 
@@ -49,7 +83,7 @@ void dijkstra(int src)
 	{
 		int u = getMin(dist, visited);
 		visited[u] = true;
-		cout << " min = " << u << endl;
+		// cout << " min = " << u << endl;
 		for (int v = 0; v < n; v++)
 		{
 			if (!visited[v] && (dist[u] + cost[u][v]) < dist[v] && cost[u][v] != 9999)
@@ -60,7 +94,7 @@ void dijkstra(int src)
 		}
 	}
 
-	display(dist, par);
+	display(dist, par, src);
 }
 
 void visualize_dijkstras_algorithm()
