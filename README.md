@@ -2,7 +2,7 @@
 
 Data Structure and Algorithm Project, 4th Semester
 
-## Visualization of Dijkstra's Algorithm & Huffman Tree
+## Visualization of Huffman Tree & Dijkstra's Algorithm
 
 ### Requirements
 
@@ -19,7 +19,7 @@ chmod +x init.sh
 ./init.sh
 ```
 
-If your default shell does not support bash scripting, create two
+If the default shell does not support bash scripting, create two
 new directories manually : `build` and `bin`. That is what `init.sh`
 essentially does. For more details, see **Directory Structure** below.
 
@@ -48,13 +48,12 @@ build_dir=build
 binary_dir=bin
 ```
 
-Your final project structure should look something like this:
-
 ```
+/final project structure
 .
-├── assets/                 # Fonts and other resources
 ├── bin/                    # Final working binary
 ├── build/                  # Compiled object files
+├── fonts/                  # Fonts .ttf
 ├── includes/               # Headers and their source files
 ├── lib/                    # Custom files that fall under 'library'
 ├── main.cpp                # Entry point into the program
@@ -66,8 +65,10 @@ Your final project structure should look something like this:
 ### Notes:
 
 - Not Windows compatible for now, mostly due to path changes required for SDL.
-- Need to work on a script to auto-install all the required libraries.
-- External contributions/pull requests will not be accepted as of
-  now, since this is a college project.
 
 ### Primary Contributors:
+
+PRABIGYA PATHAK 076BEI022
+PRAYAG MAN MANE 076BEI027
+RAHUL SHRESTHA 076BEI028
+TRIBHUWAN BHATTA 076BEI046

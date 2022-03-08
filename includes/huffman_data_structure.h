@@ -39,13 +39,12 @@ public:
 
 
 
-/* This retard converts a string to Priority_Queue<Nodes> */
+/* This method converts a string to Priority_Queue<Nodes> */
 Priority_Queue *str_to_priority_queue(std::string &str);
 
 
 
 
-/* This retard combines two nodes with highest priority and inserts
- * the combined node into a single node and pushes to priority queue
+/* This method combines two nodes with highest priority and inserts the combined node into a single node and pushes to priority queue
  */
 void combine_once(Priority_Queue *g_queue);
